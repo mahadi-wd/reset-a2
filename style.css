@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Updock&display=swap");
+
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Great Vibes", cursive; */
+
+/* header section style */
+
+* {
+  margin: 0;
+}
+header {
+  /* background: linear-gradient(0deg , rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+     */
+
+  background: linear-gradient(
+    180deg,
+    rgba(18, 18, 18, 0.799),
+    rgba(18, 18, 18)
+  );
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+header nav h3 {
+  color: #e6533c;
+  font-size: 36px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  text-align: center;
+  padding: 2px;
+}
+
+header nav ul li {
+  border-radius: 20px;
+  padding: 5px 10px;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+}
+
+header nav ul .active {
+  border-radius: 20px;
+  padding: 5px 10px;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  background: #e6533c;
+}
+
+header .banner {
+  padding: 50px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .banner .banner-content {
+  width: 50%;
+}
+
+.banner .banner-content h1 {
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+.banner .banner-content h1 span {
+  font-family: "Updock", cursive;
+  font-weight: normal;
+  font-size: 100px;
+}
+
+.banner .banner-content p {
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  text-align: left;
+}
+
+.banner .banner-content .btn-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.banner .banner-content .btn-container .btn{
+    background: #E6533C;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+
+}
+
+.banner .banner-content .btn-container .active{
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: 1px solid white;
+    background: transparent;
+}
+
+header .banner .banner-img {
+  background-image: url(./assets/image\ 2.png);
+  background-repeat: no-repeat;
+  background-position: cneter;
+}
