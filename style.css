@@ -346,7 +346,7 @@ header .banner .banner-img .badge2 p {
 
 }
 
-.calc-container{
+.bmi-calc .calc-container{
   background: #222222;
   padding: 30px 50px;
   display: flex;
@@ -596,5 +596,76 @@ header .banner .banner-img .badge2 p {
     width: 100%;
   }
 
+  .bmi-calc .calc-container{
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  .calc-container .calc-table{
+    width: 100%;
+  }
    
+  .calc-container .calc-form{
+    width: 100%;
+  }
+
+  .calc-container .calc-table table th{
+    padding: 10px 20px;
+    color: white;
+  }
+  .calc-container .calc-table table td{
+    padding: 10px 20px;
+    color: #ffffff80;
+  }
+
+  .calc-container .calc-form .calc-input{
+    background: #FFFFFF1A;
+    padding: 9px 10px ;
+    border: none;
+    border-radius: 6px;
+    margin: 3px;
+    width: 42%;
+  }
+
+  .calc-container .calc-form .gender .calc-input{
+    width: 92%;
+  }
+  
+}
+
+@media screen and (min-width:992px){
+  .bmi-calc .calc-container{
+    flex-direction: row;
+    padding: 20px 40px;
+  }
+
+  .calc-container .calc-table{
+    width: 100%;
+  }
+   
+  .calc-container .calc-form{
+    width: 100%;
+  }
+
+  .calc-container .calc-table table th{
+    padding: 10px 20px;
+    color: white;
+  }
+  .calc-container .calc-table table td{
+    padding: 10px 20px;
+    color: #ffffff80;
+  }
+
+  .calc-container .calc-form .calc-input{
+    background: #FFFFFF1A;
+    padding: 9px 10px ;
+    border: none;
+    border-radius: 6px;
+    margin: 3px;
+    width: 42%;
+  }
+
+  .calc-container .calc-form .gender .calc-input{
+    width: 91%;
+  }
 }
