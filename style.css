@@ -452,6 +452,7 @@ header .banner .banner-img .badge2 p {
   width: 100%;
   font-family: "Inter", sans-serif;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .meet-team .container{
@@ -557,6 +558,95 @@ header .banner .banner-img .badge2 p {
   text-align: center;
 
 }
+
+footer{
+  background: #222222;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  padding-top: 60px;
+  color: #FFFFFF80;
+
+}
+
+footer .container{
+  padding: 0px 50px;
+}
+
+footer .content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+footer .container .footer-left{
+  width: 50%;
+}
+
+footer .container .footer-left .title{
+  font-size: 70px;
+  color: #e6533c;
+}
+
+footer .container .footer-left .description{
+  font-size: 18px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer .container .footer-right{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+footer .container .footer-right .right-left h4{
+  color: white;
+  font: 800;
+  font-size: 35px;
+  margin-left: 35px;
+
+}
+
+
+footer .container .footer-right .right-left ul li{
+  list-style: none;
+  text-align: left;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+footer .container .footer-right .right-right h4{
+  color: white;
+  font: 800;
+  font-size: 35px;
+  margin-left: 35px;
+
+}
+
+footer .container .footer-right .right-right ul li{
+  list-style: none;
+  text-align: left;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+
+footer .container .footer-right .right-right ul{
+  list-style: none;
+}
+
+footer .container .copyright{
+  padding: 40px 0;
+  border-top: 1px solid #FFFFFF80;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
 
 /* style for small device */
 
@@ -760,7 +850,46 @@ header .banner .banner-img .badge2 p {
   .meet-team .container .team-container .team{
     width: 100%;
   }
+
+  /* fooer section  */
+  footer .container{
+    padding:20px;
+  }
+
+  footer .content{
+    flex-direction: column;
+    width: 100%;
+  }
   
+  footer .container .footer-left{
+    width: 100%;
+  }
+
+  footer .container .footer-right{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    gap: 50px;
+    padding: 0;
+    
+  }
+
+  footer .container .footer-right h4{
+    margin-left: 0;
+  }
+  footer .container .footer-right .right-left{
+    width: 100%;
+    margin-right: 70px;
+  }
+
+  footer .container .footer-right .right-right{
+    width: 100%;
+    margin-right: 70px;
+  }
+
+  footer .container .copyright{
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width:992px) and (max-width:1010px){
